@@ -1,0 +1,63 @@
+// Stiler for hovednavigasjon
+@use "../base/root.scss";
+
+.main-nav {
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    &__outer {
+        right: 0;
+        left: 0;
+        top: 0;
+        position: absolute;
+        padding-block: 5rem;
+        background-color: white;
+    }
+
+    &__inner {
+        max-width: var(--container);
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
+
+
+    &__list {
+        grid-column: 1 / 6;
+        display: flex;
+        justify-content: space-between;
+        & > .main-nav__item > .main-nav__link {
+            font-weight: 600;
+        }
+    }
+
+    &__sublist {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        padding-top: 1.5rem;
+    }
+
+    &__link {
+        margin: 0rem;
+        text-decoration: none;
+        color: var(--color-black-400);
+    }
+
+    &__menu-card-group {
+        display: grid;
+        grid-column: 7 / -1;
+        gap: 1.25rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+
+
+    &--open {
+        // Meny skal ligge "oppå" resten av innholdet
+        display: flex;
+    }
+}

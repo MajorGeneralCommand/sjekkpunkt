@@ -1,0 +1,54 @@
+// Stiler for sidens header
+
+
+.main-header {
+    padding-block: 2rem;
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-inline: auto;
+        max-width: var(--container);
+    }
+
+    &__group {
+        display: flex;
+        gap: 1.25rem;
+    }
+
+    &__search {
+       display: none;
+       position: relative;
+       &--open {
+        display: block;
+       }
+    }
+
+    &__search-input {
+        background-color: var(--color-beige-400);
+        font-size: 1rem;
+        border: none;
+        border-radius: 6.25rem;
+        min-width: 20rem;
+        min-height: 3.3rem;
+        padding-left: 1rem;
+    }
+
+    &__search-anchor {
+        position: absolute;
+        top: 8%;
+        right: 1.5%;
+    }
+
+    &--menu-open {
+        background-color: white;
+        & .button:not(.button--red) {
+            background-color: var(--color-beige-400);
+        }
+    }
+
+    &--closed {
+        display: none;
+    }
+}

@@ -1,0 +1,36 @@
+<nav class="main-nav" id="main-nav">
+    {{# Skrive ut hele navigasjonen #}}
+    <div class="main-nav__outer">
+        <div class="main-nav__inner">
+            <ul class="main-nav__list">
+                {{ nav:main_navigation }}
+                <li class="main-nav__item">
+                    <a class="main-nav__link" href="{{ url }}">{{ title }}</a>
+                    {{ if children }}
+                    <ul class="main-nav__sublist">
+                        {{ children }}
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="{{ url }}">{{ title }}</a>
+                        </li>
+                        {{ /children }}
+                    </ul>
+                    {{ /if }}
+                </li>
+                {{ /nav:main_navigation }}
+            </ul>
+            <div class="main-nav__menu-card-group">
+                {{ settings:menu_cards }}
+                <article class="menu-card">
+                    <img src="{{ icon }}" class="menu-card__image" height="32" width="32">
+                    <p class="menu-card__heading">{{ heading }}</p>
+                    <p class="menu-card__body">{{ body }}</p>
+                    <div class="menu-card__link-container">
+                        <a href="{{ link }}" class="menu-card__link">{{ link_label }}</a>
+                    </div>
+                </article>
+                {{ /settings:menu_cards }}
+            </div>
+            <div></div>
+        </div>
+    </div>
+</nav>

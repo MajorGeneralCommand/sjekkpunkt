@@ -1,0 +1,37 @@
+title: Settings
+data:
+  main_logo: sjekkpunkt.svg
+  negative_logo:
+    - sjekkpunkt-hvit.svg
+  red_search_round: redsearchround.svg
+  menu_cards:
+    -
+      id: lzjpn1l5
+      icon: sparkle.svg
+      heading: 'Fritt verkstedsvalg'
+      body:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.'
+      link: '#'
+      link_label: 'Les mer'
+      type: new_card
+      enabled: true
+    -
+      id: lzjpraj6
+      icon: creditcard.svg
+      heading: SjekkPunkt-konto
+      body:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor.'
+      link: '#'
+      link_label: 'Søk om kort'
+      type: new_card
+      enabled: true

@@ -1,0 +1,72 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: main_logo
+            field:
+              max_files: 1
+              container: assets
+              type: assets
+              display: 'Main Logo'
+          -
+            handle: negative_logo
+            field:
+              container: assets
+              type: assets
+              display: 'Negative Logo'
+          -
+            handle: red_search_round
+            field:
+              max_files: 1
+              container: assets
+              type: assets
+              display: 'Red Search Round'
+          -
+            handle: menu_cards
+            field:
+              type: replicator
+              display: 'Menu Cards'
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  sets:
+                    new_card:
+                      display: 'New Card'
+                      fields:
+                        -
+                          handle: icon
+                          field:
+                            max_files: 1
+                            container: assets
+                            type: assets
+                            display: Icon
+                        -
+                          handle: heading
+                          field:
+                            type: text
+                            display: Heading
+                        -
+                          handle: body
+                          field:
+                            buttons:
+                              - bold
+                              - italic
+                              - removeformat
+                            remove_empty_nodes: false
+                            type: bard
+                            display: Body
+                        -
+                          handle: link
+                          field:
+                            type: link
+                            display: Link
+                            width: 50
+                        -
+                          handle: link_label
+                          field:
+                            type: text
+                            display: 'Link Label'
+                            width: 50

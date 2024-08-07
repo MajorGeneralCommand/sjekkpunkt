@@ -1,0 +1,14 @@
+// Stiler for knappe-komponenten
+
+.button {
+    border: none;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: inherit;
+    &--red {
+        background-color: var(--color-red-400);
+        color: white;
+    }
+}

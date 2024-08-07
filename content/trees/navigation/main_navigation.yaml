@@ -1,0 +1,72 @@
+tree:
+  -
+    id: aa78fd23-8fea-4aac-9dd7-0b973548b1ef
+    title: Tjenester
+    url: '#'
+    children:
+      -
+        id: 6e2c2906-d832-4915-87f7-06b431050dfd
+        title: 'Eu kontroll'
+        url: '#'
+      -
+        id: a3b90172-1226-4043-98b8-86d198611eb6
+        title: Service
+        url: '#'
+      -
+        id: 8dc10aed-23f5-4bd9-84d5-d5c3e711264d
+        title: Dekkskift
+        url: '#'
+      -
+        id: b424ec36-f60d-4821-865c-cac888388643
+        title: Veihjelp
+        url: '#'
+      -
+        id: 98440a06-ec06-41dd-b6a7-efa0669593ee
+        title: EL-bil
+        url: '#'
+      -
+        id: 6fbf5fd4-6715-4cc3-ad8b-bf050bc765ff
+        title: 'Se alle'
+        url: '#'
+  -
+    id: 33cf4dfe-c828-4b13-a120-fd3dff2cb126
+    title: 'Om SjekkPunkt'
+    url: '#'
+    children:
+      -
+        id: 465ead88-b36c-4a3c-83bd-8a6271b8f11e
+        title: Medlemsfordeler
+        url: '#'
+      -
+        id: 2417dbd2-0e78-4db2-8c25-daf1ae494b5f
+        title: Aktuelt
+        url: '#'
+      -
+        id: 0e2c6b8e-f4ca-4dd4-bb50-a59a7b526643
+        title: 'Jobb i SjekkPunkt'
+        url: '#'
+      -
+        id: 04bbd289-0c5f-4e95-90e6-16648521a351
+        title: 'Våre medlemmer'
+        url: '#'
+      -
+        id: 257f80a0-eab6-4e62-9ff3-17c4e7a8494f
+        title: 'Om oss'
+        url: '#'
+      -
+        id: 377daacf-b923-469f-af0d-1eeabfa0b8e7
+        title: 'Kontakt oss'
+        url: '#'
+  -
+    id: 609690e4-d7dc-47b4-86a7-4fb76e5b6ff6
+    title: 'Logg inn'
+    url: '#'
+    children:
+      -
+        id: e7f89d46-851c-4134-ad9b-249647c74379
+        title: Medlemsportalen
+        url: '#'
+      -
+        id: bf9110ca-0a1f-4ee9-8819-fa5cc95758fe
+        title: 'Mine sider'
+        url: '#'

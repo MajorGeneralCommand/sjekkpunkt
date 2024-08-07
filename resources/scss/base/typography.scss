@@ -1,0 +1,37 @@
+// Oppsett av fonter og font-størrelser
+
+@font-face {
+    font-family: garnett;
+    src: url(font/Garnett-Light.woff2);
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: garnett;
+    src: url(font/Garnett-Regular.woff2);
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: garnett;
+    src: url(font/Garnett-Medium.woff2);
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: garnett;
+    src: url(font/Garnett-Semibold.woff2);
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: garnett;
+    src: url(font/Garnett-Bold.woff2);
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: garnett;
+    src: url(font/Garnett-Black.woff2);
+    font-weight: 900;
+  }

@@ -1,0 +1,37 @@
+@use "breakpoints" as *;
+
+// CSS-variabler som farger, font-størrelser etc
+// Skrives på formen --navn-på-variabel: blue;
+// Brukes slik: var(--navn-på-variabel);
+
+:root {
+    --color-red-200: #F4BAC2;
+    --color-red-300: #E1485B;
+    --color-red-400: #DA1A32;
+    --color-red-500: #AE1528;
+
+    --color-black-200: #16161A;
+    --color-black-300: #1C1B20;
+    --color-black-400: #49494D;
+    --color-black-500: #BBBBBC;
+
+    --color-yellow-200: #CBA734;
+    --color-yellow-300: #FED141;
+    --color-yellow-400: #FEDA67;
+    --color-yellow-500: #FFF1C6;
+
+    --color-purple-200: #9AA2CC;
+    --color-purple-300: #C0CAFF;
+    --color-purple-400: #CDD5FF;
+    --color-purple-500: #ECEFFF;
+
+    --color-beige-400: #F9F6F4;
+
+ --container: 100%;
+  @media(min-width: $small) {--container: 540px;}
+  @media(min-width: $medium) {--container: 740px;}
+  @media(min-width: $large) {--container: 960px;}
+  @media(min-width: $xlarge) {--container: 1140px;}
+  @media(min-width: $xxlarge) {--container: 1320px;}
+  @media(min-width: $xxxlarge) {--container: 1600px;}
+}
